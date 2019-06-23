@@ -11,13 +11,12 @@
   "bugs": {
     "url": "https://github.com/standardpress/stylelint-config-standardpress/issues"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "css/index.js",
   "files": [
     "scss/index.js"
   ],
   "scripts": {
-    "lint": "eslint css scss __tests__",
     "test": "jest"
   },
   "peerDependencies": {
@@ -27,12 +26,6 @@
     "stylelint-scss": "^3.5.4"
   },
   "devDependencies": {
-    "eslint": "^5.15.3",
-    "eslint-config-standardpress": "^0.1.0",
-    "eslint-plugin-eslint-comments": "^3.1.1",
-    "eslint-plugin-jest": "^22.4.1",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-sort-requires": "^2.1.0",
     "jest": "^24.5.0",
     "stylelint": "^9.10.1",
     "stylelint-config-standard": "^18.2.0",
